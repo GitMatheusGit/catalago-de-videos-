@@ -5,8 +5,20 @@ body {
 }
 
 header {
-    border-bottom: solid 2px rgb(255, 150, 4);
+    border-bottom: solid 2px hwb(31 0% 0%), 0.993)));
     padding: 20px;
     font-size: 32px;
-    color: rgb(61, 61, 65);
+    color: rgb(40, 42, 45);
+}
+
+section {
+	background: rgb(184,156,213);
+	padding-bottom: 80px;
+	padding-top: 80px;
+	display: flex;
+	justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
 }
